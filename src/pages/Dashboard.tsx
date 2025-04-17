@@ -4,7 +4,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Search, Robot, MessageSquare, Code } from 'lucide-react';
+import { Search, Bot, MessageSquare, Code } from 'lucide-react';
 
 const agents = [
   {
@@ -12,7 +12,7 @@ const agents = [
     title: "Data Analysis Assistant",
     category: "Analytics",
     description: "Advanced AI agent specialized in data processing, visualization, and statistical analysis.",
-    icon: Robot,
+    icon: Bot,
     users: 245,
     background: "neutral-700"
   },
